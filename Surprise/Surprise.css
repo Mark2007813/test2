@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    padding: 50px 0px;
+}
+
+h2{
+    color: rgb(161, 3, 29);
+    text-transform: uppercase;
+    align-self: self-end;
+}
+
+h2 hr{
+    color: black;
+    margin-top: 10px;
+    border-style: solid;
+}
+
+p{
+    font-size: 14px;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+p b{
+    color: rgb(209, 0, 87);
+}
+
+.first-encounter{
+    display: grid;
+    grid-template-columns: 500px 400px;
+    gap: 0px 50px;
+    justify-content: center;
+    width: fit-content;
+    margin: auto;
+}
+
+.first-encounter img{
+    width: 100%;
+    grid-row-end: span 2;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(196, 196, 196), 0 6px 10px rgb(170, 170, 170);
+    rotate: -3deg;
+
+}
+
+.see-each-other{
+    display: grid;
+    grid-template-columns: 400px 500px;
+    gap: 0px 50px;
+    justify-content: center;
+    width: fit-content;
+    margin: auto;
+}
+
+.paper-boat{
+    width: 100%;
+    height: 200px;
+    grid-row-end: span 2;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(196, 196, 196), 0 6px 10px rgb(170, 170, 170);
+    rotate: 3deg;
+    background-color: rgb(104, 30, 42);
+    justify-content: center;
+    display: flex;
+    justify-self: end;
+}
+
+.paper-boat img{
+    width: 360px;
+    justify-self: center;
+    align-self: center;
+}
+
+.opened-up{
+    display: grid;
+    grid-template-columns: 950px;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+    width: fit-content;
+    margin: auto;
+}
+
+.apps{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+
+.apps img{
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 4px 8px rgb(196, 196, 196), 0 6px 10px rgb(170, 170, 170);
+    border-radius: 30px;
+}
+
+.telegram{
+    rotate: -6deg;
+}
+
+.discord{
+    rotate: -3deg;
+}
